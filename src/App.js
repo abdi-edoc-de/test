@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
-import FormEnglish from "./pages/formEnglish";
+import Review from "./pages/review";
 
 import "./App.css";
 function App() {
     return (
         <div>
-            <FormEnglish />
+            <Review />
         </div>
     );
 }

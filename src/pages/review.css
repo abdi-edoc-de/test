@@ -1,4 +1,207 @@
 .my-review-component {
     display: flex;
     height: 100%;
+    margin-left: 88px;
+    margin-right: 88px;
+    margin-top: 50px;
+}
+
+.first-box {
+    width: 728px;
+    height: 588px;
+}
+
+.icon-and-text {
+    display: flex;
+    align-items: center;
+}
+
+.staricon {
+    margin-right: 10px;
+}
+
+.staricon img {
+    width: 34.57px;
+    height: 26.48px;
+    top: 2459.99px;
+    left: 83px;
+}
+
+.star-text {
+    width: 398px;
+    height: 32px;
+    top: 2460px;
+    left: 133px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #01264A;
+}
+
+
+.profile-component {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.profile-image {
+    width: 72px;
+    height: 72px;
+    /* Add other image styles as needed */
+}
+
+.name {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0;
+    text-align: justified;
+    color: #535353;
+    width: 562px;
+    height: 34px;
+    left: 104px;
+    text-decoration: underline;
+}
+
+.profileDetail{
+    margin-left: 30px;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    /* Add column styles as needed */
+}
+
+.column-text {
+    width: 176px;
+    height: 34px;
+    top: 58px;
+    left: 104px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0;
+    text-align: justified;
+    color: #535353;
+}
+
+.column-icon {
+    margin-right: 10px;
+    color: #535353;
+}
+
+.column-icon-image {
+    color: #535353;
+}
+
+.line {
+    width: 728.01px;
+    top: 112px;
+    margin-top: 30px;
+    border: 1px solid #D2D2D2;
+    background: #D2D2D2;
+    transform: rotate(0deg);
+}
+
+.text-date {
+    margin-top: 20px;
+    width: 250px;
+    height: 28px;
+    margin-left: 480px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: right;
+    color: #535353;
+}
+
+.star-icons {
+    display: flex;
+    align-items: center;
+}
+
+.star-icon {
+    width: 36.64px;
+    height: 36.64px;
+    top: 152px;
+    margin-right: 5px;
+}
+
+.recommend-text {
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0;
+    text-align: justified;
+    color: #535353;
+    width: 562px;
+    height: 34px;
+    top: 207px;
+}
+
+.review-text {
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-align: justified;
+    width: 728px;
+    height: 54px;
+    top: 267px;
+    color: #535353;
+}
+
+.date-of-experience {
+    margin-top: 80px;
+    width: 562px;
+    height: 28px;
+    top: 381px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: justified;
+    color: #535353;
+}
+
+.nav-icons-container {
+    margin-top: 150px;
+    margin-left: 520px;
+    display: flex;
+    padding: 0;
+
+}
+
+.navicone {
+    width: 19.52px;
+    height: 28.25px;
+    margin-right: 70px;
+}
+
+.trustpilot-image {
+    margin-top: 50px;
+    margin-left: 600px;
+    width: 176px;
+    height: 83px;
+}
+
+.person-message-image {
+    margin-top: 100px;
+    margin-left: 210px;
+    width: 625.84px;
+    height: 464px;
 }
