@@ -8,6 +8,7 @@ function Contact() {
       <div
         style={{
           margin: "0 5%",
+          marginBottom: "4%",
         }}
       >
         <Divider

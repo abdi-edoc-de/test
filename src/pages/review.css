@@ -68,7 +68,7 @@
     text-decoration: underline;
 }
 
-.profileDetail{
+.profileDetail {
     margin-left: 30px;
 }
 
@@ -194,14 +194,13 @@
 
 .trustpilot-image {
     margin-top: 50px;
-    margin-left: 600px;
+    margin-left: 45%;
     width: 176px;
     height: 83px;
 }
 
 .person-message-image {
     margin-top: 100px;
-    margin-left: 210px;
     width: 625.84px;
     height: 464px;
 }

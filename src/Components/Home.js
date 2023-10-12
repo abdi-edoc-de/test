@@ -3,6 +3,7 @@ import { Row, Col, Divider } from "antd";
 import Forms from "./Forms";
 import { CheckOutlined, PlayCircleOutlined } from "@ant-design/icons";
 import Nav from "./Nav";
+
 function Home() {
   return (
     <div className="home-container">

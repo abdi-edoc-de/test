@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Sidebar from "../formSlider/components/SideBar";
-import PhoneNumberInput from "../formSlider/components/PhoneNumberInput";
+import Sidebar from "../FormSlider/components/SideBar";
+import PhoneNumberInput from "../FormSlider/components/PhoneNumberInput";
 import "./formSlider.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import FormButton from "../formSlider/components/FormButton";
+import FormButton from "../FormSlider/components/FormButton";
 import Copyright from "../components/copyRight";
 import TopRightButton from "../components/topRightButtons";
 
@@ -36,9 +36,9 @@ function FormSlider() {
   };
 
   return (
-    <div className="form-page">
+    <div className="form-page" style={{ background: "white" }}>
       <Sidebar currentStep={currentStep} steps={steps} />
-      <div className="form-body">
+      <div className="form-body" style={{ background: "white" }}>
         <div className="top-right-form">
           <TopRightButton />
         </div>

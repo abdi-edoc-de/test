@@ -1,23 +1,23 @@
 .my-component {
     display: flex;
     height: 100%;
+    position: absolute;
+    top: 0;
+    overflow-y: hidden;
 }
 
 .left-box {
-    width: 653px;
+    width: 30%;
     background-color: #01264A;
-    padding-left: 94px ;
-    padding-top: 46px;
+    padding-left: 7%;
+    padding-top: 10%;
     height: 100vh;
     position: relative;
 }
 
 .visa-text {
-    width: 500px;
-    height: 245px;
-    top: 125.05px;
-    left: 94px;
-    margin-top: 50px;
+    padding-top: 5%;
+    padding-bottom: 7%;
     font-family: 'Inter', sans-serif;
     font-size: 64px;
     font-weight: 700;
@@ -32,11 +32,8 @@
 }
 
 .dream-text {
-    width: 524px;
-    height: 207px;
-    top: 410.05px;
-    left: 94px;
-    padding-top: 50px;
+
+
     font-family: 'Inter', sans-serif;
     font-size: 54px;
     line-height: 58px;
@@ -70,7 +67,8 @@
 .line-and-text {
     display: flex;
     align-items: center;
-    margin-top: 50px; /* Add spacing between the text and the previous elements */
+    margin-top: 50px;
+    /* Add spacing between the text and the previous elements */
 }
 
 /* Straight Line Styles */
@@ -90,21 +88,24 @@
     line-height: 21px;
     letter-spacing: 0;
     text-align: justified;
-    color: #FFFFFF; /* Adjust the color as needed */
+    color: #FFFFFF;
+    /* Adjust the color as needed */
 }
 
 .right-box {
     width: calc(100% - 653px);
     height: 100vh;
     position: relative;
-    padding-right: 94px ;
+    padding-right: 94px;
     padding-top: 46px;
+    background-color: #F7F8F9;
 }
 
 
 .buttons-container {
     display: flex;
-    justify-content: flex-end; /* Align buttons to the top-right corner */
+    justify-content: flex-end;
+    /* Align buttons to the top-right corner */
 }
 
 .button {
@@ -160,10 +161,15 @@
     left: 1217px;
 }
 
-.ready-text-button{
-    margin-left: 300px;
-    margin-top: 200px;
+.ready-text-button {
+    /* margin-left: 300px;
+    margin-top: 200px; */
+    align-items: center;
+    height: 100%;
+    display: flex;
+    margin-left: 15%;
 }
+
 .ready-to-begin-text {
     justify-self: center;
     align-self: center;
@@ -185,7 +191,7 @@
     margin-left: 25px;
     height: 58px;
     border-radius: 14px;
-    border-color:  #4AC97D;
+    border-color: #4AC97D;
     background-color: #4AC97D;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
