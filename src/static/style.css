@@ -1,0 +1,19 @@
+.ant-select-selection {
+    background-color: green;
+}
+
+.ant-select-selection-search-input {
+    background-color: green;
+}
+
+
+.home-container {
+    background-image: url("../static/Home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+.home-row {
+    margin: 0 5%;
+}
