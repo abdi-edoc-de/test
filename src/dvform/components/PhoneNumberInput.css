@@ -1,0 +1,41 @@
+/* PhoneNumberInput.css */
+.phone-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.flag-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+select {
+  font-size: 35px; /* Increase the font size for the phone input */
+}
+
+.phone-input {
+  font-size: 35px; /* Increase the font size for the phone input */
+}
+
+/* Add the following styles to remove borders and add bottom lines */
+select,
+input.phone-input {
+  border: none; /* Remove the borders */
+  outline: none; /* Remove the outline on focus */
+  border-bottom: 1px solid #ccc; /* Add a light gray bottom line */
+  padding-bottom: 10px; /* Add margin to the bottom line */
+}
+
+/* Style the separator */
+.separator {
+  font-size: 25px; /* Increase the font size for the separator */
+  width: 10px; /* Set the desired width for the separator */
+  margin: 0 10px; /* Add margin around the separator */
+  color: #01264a;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+input.phone-input::placeholder {
+  color: #ccc; /* Light gray color for the hint text */
+}

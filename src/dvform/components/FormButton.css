@@ -1,0 +1,17 @@
+/* FormButton.css */
+.form-button {
+  background: #d2d2d2; /* Light gray background color */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 90px;
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tick-icon {
+  margin-left: 5px; /* Add some space to the left of the tick icon */
+}
