@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import Sidebar from "./components/SideBar";
-import PhoneNumberInput from "./components/PhoneNumberInput";
-import "./FormPage.css";
+import Sidebar from "../formSlider/components/SideBar";
+import PhoneNumberInput from "../formSlider/components/PhoneNumberInput";
+import "./formSlider.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import FormButton from "./components/FormButton";
+import FormButton from "../formSlider/components/FormButton";
+import Copyright from "../components/copyRight";
+import TopRightButton from "../components/topRightButtons";
 
 const steps = [
   "Name",
@@ -18,8 +20,8 @@ const steps = [
   "Payment",
 ];
 
-function FormPage() {
-  const [currentStep, setCurrentStep] = useState(0);
+function FormSlider() {
+  const [currentStep, setCurrentStep] = useState(1);
 
   const handleNextStep = () => {
     if (currentStep < steps.length - 1) {
@@ -37,7 +39,10 @@ function FormPage() {
     <div className="form-page">
       <Sidebar currentStep={currentStep} steps={steps} />
       <div className="form-body">
-        <h1 className="form-title">2.1. - {steps[currentStep]}</h1>
+        <div className="top-right-form">
+          <TopRightButton />
+        </div>
+        <h1 className="form-title">2.1. - Phone number</h1>
         <PhoneNumberInput />
         <FormButton />
       </div>
@@ -50,9 +55,10 @@ function FormPage() {
             <FontAwesomeIcon icon={faChevronDown} className="arrow-icon" />
           </button>
         </div>
+        <Copyright />
       </div>
     </div>
   );
 }
 
-export default FormPage;
+export default FormSlider;

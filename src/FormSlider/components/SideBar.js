@@ -1,8 +1,13 @@
 import React from "react";
 import "./SideBar.css";
+import LogoComponent from "../../components/logoComponent";
+
 const Sidebar = ({ currentStep, steps }) => {
   return (
     <div className="sidebar">
+      <div className="logo">
+        <LogoComponent />
+      </div>
       <ul>
         {steps.map((step, index) => (
           <li

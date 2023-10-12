@@ -24,21 +24,28 @@
   right: 0;
   margin: 20px;
   display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.control-container {
+  margin-right: 40px;
+  margin-bottom: 70px;
 }
 
 .arrow-button {
   background-color: #01264a;
   border: none; /* Remove the default button border */
-  padding: 3px 10px; /* Add padding inside the button */
+  padding: 4px 8px; /* Add padding inside the button */
   cursor: pointer;
 }
 
 .arrow-up {
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 8px 0px 0px 8px;
 }
 
 .arrow-down {
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 8px 8px 0px;
 }
 
 .arrow-icon {
@@ -49,7 +56,16 @@
 
 .form-title {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 300;
+  letter-spacing: 1px;
   color: #01264a;
   margin-bottom: 50px;
+}
+
+.top-right-form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 85px;
+  margin-top: 25px;
 }

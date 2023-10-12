@@ -1,12 +1,13 @@
 import logo from "./logo.svg";
-import Footer from "./pages/footer";
+import Review from "./pages/review";
+import FormSlider from "./pages/formSlider";
 
 function App() {
-    return (
-        <div>
-            <Footer />
-        </div>
-    );
+  return (
+    <>
+      <FormSlider />
+    </>
+  );
 }
 
 export default App;

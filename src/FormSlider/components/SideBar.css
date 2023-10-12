@@ -1,10 +1,9 @@
-/* Sidebar.css (or your preferred CSS file) */
 .sidebar {
-  background-color: #01264a; /* Blue background color */
-  width: 20%; /* 20% width of the screen */
+  background-color: #01264a;
+  width: 20%;
   padding: 20px;
   box-sizing: border-box;
-  position: fixed; /* Fix the sidebar in place */
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -14,7 +13,7 @@
 }
 
 .sidebar h2 {
-  color: #fff; /* White text color */
+  color: #fff;
 }
 
 .sidebar ul {
@@ -37,25 +36,25 @@
 .dot {
   width: 10px;
   height: 10px;
-  border: 1.5px solid white; /* Blue border color for inactive dots */
-  border-radius: 50%; /* Makes the dot circular */
+  border: 1.5px solid white;
+  border-radius: 50%;
   margin-right: 10px;
 }
 
 .sidebar li.active .dot {
-  background-color: #fff; /* Fill the dot with white for active steps */
+  background-color: #fff;
 }
 
 /* Style the connectors for active and non-active steps */
 .sidebar li:not(:first-child):after {
   content: "";
   position: absolute;
-  top: -283%; /*  Align the connector with the center of the dot */
+  top: -283%;
   left: 7px;
-  transform: translateX(-50%); /* Center the connector horizontally */
+  transform: translateX(-50%);
   width: 1px;
-  height: calc(100% + 40px); /* Adjust this value to connect to the next dot */
-  border-left: 1px solid #fff; /* Dotted line for non-active steps */
+  height: calc(100% + 38px);
+  border-left: 1px solid #fff;
 }
 
 .sidebar li:not(.active):after {
@@ -64,4 +63,9 @@
 
 .default-text {
   color: #ccc; /* Light gray color for the hint text */
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
