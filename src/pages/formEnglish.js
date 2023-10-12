@@ -3,6 +3,7 @@ import "./formEnglish.css";
 import IconWithText from "../components/iconWithText";
 import TopRightButton from "../components/topRightButtons";
 import LogoComponent from "../components/logoComponent";
+import Copyright from "../components/copyRight";
 
 function FormEnglish() {
     return (
@@ -37,6 +38,7 @@ function FormEnglish() {
                     </div>
                     <button className="start-button">Start</button>
                 </div>
+                <Copyright />
             </div>
         </div>
     );
