@@ -9,7 +9,7 @@ import Contact from "./Pages/Contact";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./pages/footer";
 import FormEnglish from "./pages/formEnglish";
-import English from "./pages/english";
+import English from "./Pages/english";
 function App() {
   return (
     <>
