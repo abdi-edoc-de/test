@@ -1,0 +1,197 @@
+.my-component {
+    display: flex;
+    height: 100%;
+}
+
+.left-box {
+    width: 653px;
+    background-color: #01264A;
+    padding-left: 94px ;
+    padding-top: 46px;
+    height: 100vh;
+    position: relative;
+}
+
+.visa-text {
+    width: 500px;
+    height: 245px;
+    top: 125.05px;
+    left: 94px;
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.green-text {
+    color: #4AC97D;
+}
+
+.dream-text {
+    width: 524px;
+    height: 207px;
+    top: 410.05px;
+    left: 94px;
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 54px;
+    line-height: 58px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+/* Styles for the IconWithText component */
+.icon-with-text {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.icon10Min {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+
+/* Line and Text Container */
+.line-and-text {
+    display: flex;
+    align-items: center;
+    margin-top: 50px; /* Add spacing between the text and the previous elements */
+}
+
+/* Straight Line Styles */
+.straight-line {
+    width: 6px;
+    height: 81px;
+    background-color: #F7F8F9;
+}
+
+/* Text Styles */
+.lineText {
+    width: 446px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-left: 25px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: justified;
+    color: #FFFFFF; /* Adjust the color as needed */
+}
+
+.right-box {
+    width: calc(100% - 653px);
+    height: 100vh;
+    position: relative;
+    padding-right: 94px ;
+    padding-top: 46px;
+}
+
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the top-right corner */
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0;
+}
+
+.english-button {
+    align-items: center;
+    justify-content: center;
+
+    width: 199px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag-logo {
+    width: 28px;
+    height: 20px;
+
+}
+
+.button-text {
+    display: flex;
+    color: #01264A;
+    align-items: center;
+}
+
+.icon {
+    width: 12px;
+    height: 5.95px;
+    top: 23.02px;
+    left: 126px;
+    margin-left: 10px;
+}
+
+.live-chat-button {
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #01264A;
+    color: #01264A;
+    border-radius: 8px;
+    width: 199px;
+    height: 64px;
+    top: 27px;
+    left: 1217px;
+}
+
+.ready-text-button{
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.ready-to-begin-text {
+    justify-self: center;
+    align-self: center;
+    width: 620px;
+    height: 58px;
+    font-family: 'Inter', sans-serif;
+    font-size: 54px;
+    font-weight: 100;
+    line-height: 58px;
+    letter-spacing: 0;
+    color: #01264A;
+}
+
+.start-button {
+    margin-top: 100px;
+    width: 500px;
+    justify-self: center;
+    align-self: center;
+    margin-left: 25px;
+    height: 58px;
+    border-radius: 14px;
+    border-color:  #4AC97D;
+    background-color: #4AC97D;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: center;
+}
