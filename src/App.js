@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
-import Review from "./pages/review";
+import Footer from "./pages/footer";
 
 import "./App.css";
 function App() {
     return (
         <div>
-            <Review />
+            <Footer />
         </div>
     );
 }
